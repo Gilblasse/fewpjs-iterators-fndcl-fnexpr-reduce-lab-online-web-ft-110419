@@ -5,4 +5,3 @@ function totalBatteries(){
   return batteryBatches.reduce((sum,num) => num + sum,0)
 }
 
-totalBatteries();
